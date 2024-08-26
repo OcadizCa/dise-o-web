@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda en Línea</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 2em;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 0 15px;
+        }
+
+        .content {
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-bottom: 30px;
+        }
+
+        .content h2 {
+            margin-top: 0;
+            font-size: 1.5em;
+            color: #333;
+        }
+
+        .content p {
+            font-size: 1em;
+            color: #666;
+            line-height: 1.6;
+        }
+
+        .card-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .card {
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: calc(33.333% - 20px);
+            overflow: hidden;
+            text-align: center;
+        }
+
+        .card img {
+            width: 100%;
+            height: auto;
+        }
+
+        .card-body {
+            padding: 15px;
+        }
+
+        .card-title {
+            font-size: 1.25em;
+            margin-bottom: 10px;
+            color: #333;
+        }
+
+        .card-price {
+            font-size: 1.1em;
+            color: #007BFF;
+            margin-bottom: 15px;
+        }
+
+        .card-description {
+            font-size: 0.9em;
+            color: #666;
+            margin-bottom: 15px;
+        }
+
+        .card-button {
+            display: inline-block;
+            padding: 10px 15px;
+            background-color: #007BFF;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        .card-button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Bienvenido a Nuestra Tienda en Línea</h1>
+    </header>
+
+    <div class="container">
+        <div class="content">
+            <h2>Productos de Calidad</h2>
+            <p>Esta es una página para nuestra tienda en línea. Aquí encontrarás una gran variedad de productos de alta calidad a precios competitivos. Explora nuestras categorías y encuentra todo lo que necesitas en un solo lugar.</p>
+        </div>
+
+        <div class="content">
+            <h2>Catálogo de Productos</h2>
+            <div class="card-container">
+                <!-- Producto 1 -->
+                <div class="card">
+                    <img src="https://via.placeholder.com/300x200" alt="Producto 1">
+                    <div class="card-body">
+                        <h3 class="card-title">Producto 1</h3>
+                        <p class="card-price">$19.99</p>
+                        <p class="card-description">Descripción breve del producto 1. Es un artículo de excelente calidad.</p>
+                        <a href="#" class="card-button">Comprar Ahora</a>
+                    </div>
+                </div>
+
+                <!-- Producto 2 -->
+                <div class="card">
+                    <img src="https://via.placeholder.com/300x200" alt="Producto 2">
+                    <div class="card-body">
+                        <h3 class="card-title">Producto 2</h3>
+                        <p class="card-price">$29.99</p>
+                        <p class="card-description">Descripción breve del producto 2. Ideal para cualquier ocasión.</p>
+                        <a href="#" class="card-button">Comprar Ahora</a>
+                    </div>
+                </div>
+
+                <!-- Producto 3 -->
+                <div class="card">
+                    <img src="https://via.placeholder.com/300x200" alt="Producto 3">
+                    <div class="card-body">
+                        <h3 class="card-title">Producto 3</h3>
+                        <p class="card-price">$39.99</p>
+                        <p class="card-description">Descripción breve del producto 3. No te lo puedes perder.</p>
+                        <a href="#" class="card-button">Comprar Ahora</a>
+                    </div>
+                </div>
+
+                <!-- Agrega más productos según sea necesario -->
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
